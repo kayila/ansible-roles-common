@@ -1,0 +1,10 @@
+- name: Install common packages
+  pacman:
+    name:
+      - git
+      - neovim
+      - tmux
+      - tree
+      - python3-pip
+      - virtualenv
+    state: present
